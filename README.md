@@ -1,6 +1,6 @@
 <h1 align="center">Desafio Descover Rocketseat: Sidebar</h1>
 
-<p align="center"><em>Confira o resultado do desafio em: huannvictor.github.io/sidebar</em></p>
+<p align="center"><em>Confira o resultado do desafio em: huannvictor.github.io/sidebar/</em></p>
 
 <h2 align="center">Sobre o Desafio</h2>
 <p align="justify">Neste desafio deve ser criado uma sidebar como na imagem. Quando o usuário clicar no ícone do menu isso deve fazer com que o estado da sidebar mude entre "aberto", mostrando ícones e texto e "fechado", mostrando apenas os ícones.</p>
