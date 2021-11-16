@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sidebarMax.css" />
+    <link rel="stylesheet" href="sidebarMini.css" />
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <main>
+      <h1>Dashboard</h1>
+
+      <nav>
+        <div id="sidebarMini" class="sidebar">
+          <button id="toggleMax">
+            <img src="images/menu.svg" alt="botão menu" />
+          </button>
+          <a href="#"><img src="images/search.svg" alt="procurar" /></a>
+          <a href="#"><img src="images/grid.svg" alt="Dashboard" /></a>
+          <a href="#"><img src="images/pet.svg" alt="pets" /></a>
+          <a href="#"><img src="images/user.svg" alt="clientes" /></a>
+          <a href="#"><img src="images/vet.svg" alt="veterinários" /></a>
+          <a href="#"><img src="images/settings.svg" alt="ajustes" /></a>
+          <footer>
+            <a href="#"><img src="images/log-out.svg" alt="sair" /></a>
+          </footer>
+        </div>
+
+        <div id="sidebarMax" class="sidebar invisible">
+          <div id="menu">
+            <img src="images/logo.svg" alt="" />
+            <button id="toggleMini">
+              <img src="images/menu.svg" alt="botão menu" />
+            </button>
+          </div>
+          <a href="#">
+            <img src="images/search.svg" alt="procurar" />
+            <p>Buscar</p>
+          </a>
+          <a href="#">
+            <img src="images/grid.svg" alt="Dashboard" />
+            <p>Dashboad</p>
+          </a>
+          <a href="#">
+            <img src="images/pet.svg" alt="pets" />
+            <p>Pets</p>
+          </a>
+          <a href="#">
+            <img src="images/user.svg" alt="clientes" />
+            <p>Clientes</p>
+          </a>
+          <a href="#">
+            <img src="images/vet.svg" alt="veterinários" />
+            <p>Vets</p>
+          </a>
+          <a href="#">
+            <img src="images/settings.svg" alt="ajustes" />
+            <p>Ajustes</p>
+          </a>
+          <footer>
+            <div id="avatar">
+              <div id="photo"></div>
+              <p>
+                Eleonor Pena <br />
+                <span>Veterinária</span>
+              </p>
+            </div>
+            <a href="#"><img src="images/log-out.svg" alt="sair" /></a>
+          </footer>
+        </div>
+      </nav>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

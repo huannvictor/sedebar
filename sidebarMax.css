@@ -1,0 +1,106 @@
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+  --light-grey: #dce4e3;
+  --text-color: #084236;
+}
+
+nav div#sidebarMax.invisible {
+  display: none;
+}
+
+nav div#sidebarMax {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 100vh;
+  padding-top: 31px;
+  background: var(--green);
+}
+
+nav div#menu {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+nav div#sidebarMax button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+nav div#sidebarMax > a {
+  text-decoration: none;
+  font-size: 15px;
+  color: var(--text-color);
+  margin: 4px;
+  width: 222px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav div#sidebarMax a img {
+  margin: 14px;
+}
+
+nav div#sidebarMax > a:hover {
+  background: var(--light-green);
+  width: 222px;
+  height: 50px;
+  border-radius: 12px;
+}
+
+nav div#sidebarMax footer {
+  margin: 0;
+  width: 250px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--light-green);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div#sidebarMax footer div#avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+
+
+div#avatar div#photo {
+  content: '';
+  background: url('images/photo.jpg') no-repeat;
+  background-size: cover;
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+div#avatar > p {
+  font-size: 15px;
+  margin: 0 10px;
+
+}
+
+div#avatar > p > span {
+  font-size: 12px;
+}
+
+.invisible {
+  display: none;
+}
